@@ -1,2 +1,0 @@
-# ECQsystem.Api
-nestjs+ts
