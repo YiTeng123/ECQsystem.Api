@@ -18,7 +18,7 @@ export class UserService {
 // 查找全部的得分表
 async getPoint(parmas):Promise<any>{
     if(!!parmas===false){
-      // 查询全部
+      // 查询全部 根据参数判断
       return  await this.pointTest.find({}).populate('personID').exec()
     }
     else{
