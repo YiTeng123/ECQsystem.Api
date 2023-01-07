@@ -19,6 +19,7 @@ export class UserService {
 async getPoint(parmas):Promise<any>{
     if(!!parmas===false){
       // 查询全部 根据参数判断
+      // git测试
       return  await this.pointTest.find({}).populate('personID').exec()
     }
     else{
